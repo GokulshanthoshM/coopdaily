@@ -1,4 +1,4 @@
--------day1------
+day1:
 1.Amstrong
 2.Composite
 3.Factors
