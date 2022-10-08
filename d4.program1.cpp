@@ -16,15 +16,17 @@ class AddData
 };
 class Addition: public AddData   
 {
-                int sum;
+                int sum,product;
         public:
                 void add()
                 {
                         sum = num1 + num2;
+                        product= num1 + num2;
                 }
                 void display()
                 {
                         cout<<"\n Addition of Two Numbers : "<<sum;
+                        cout<<"\n product of two numbers: "<<product;
                 }
 };
 int main()
